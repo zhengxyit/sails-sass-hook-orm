@@ -1,0 +1,41 @@
+{
+  "name": "sails-hook-orm",
+  "version": "1.0.6",
+  "description": "The next-gen ORM hook from Sails core.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikermcneil/sails-hook-orm.git"
+  },
+  "keywords": [
+    "waterline",
+    "orm",
+    "sails",
+    "hook",
+    "sails-hook"
+  ],
+  "author": "Mike McNeil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikermcneil/sails-hook-orm/issues"
+  },
+  "homepage": "https://github.com/mikermcneil/sails-hook-orm#readme",
+  "dependencies": {
+    "async": "1.5.2",
+    "lodash": "3.10.1",
+    "prompt": "0.2.14",
+    "rttc": "~9.3.0",
+    "waterline": "git://github.com/zhengxyit/waterline-saas.git"
+  },
+  "sails": {
+    "isHook": true,
+    "hookName": "orm"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "sails": "~0.12.1"
+  }
+}
